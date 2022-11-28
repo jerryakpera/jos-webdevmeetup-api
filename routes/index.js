@@ -7,19 +7,7 @@ const { verifyToken } = require('../utils/get-verification-token');
 
 /* GET  */
 router.get('/', async (req, res, next) => {
-  const { fullname, email, otp } = req.body;
-
-  try {
-    await sendEmail(fullname, email, otp);
-
-    res.send('Email sent successfully!');
-  } catch (err) {
-    console.log(err);
-    return res.status(500).json({
-      data: {},
-      message: 'Something went wrong',
-    });
-  }
+  return res.send('OK!');
 });
 
 /* Verify  */
