@@ -4,7 +4,11 @@ module.exports = (name) => {
       <p style="margin-top: 5px"> Hello, ${name} </p>
       
       <p style="margin-top: 5px">
-        My name is Jeremiah Akpera and I say thank you for officially becoming a pioneer member of the Jos WebDev Meetup. While still recognizing that this is the debut event I must also get ahead of myself and say I believe that many more will follow.
+        Firstly, my name is Jeremiah Akpera and I say thank you for officially becoming a pioneer member of the Jos WebDev Meetup. While still recognizing that this is the debut event I must also get ahead of myself and say I believe that many more will follow.
+      </p>
+      
+      <p style="margin-top: 5px">
+        Secondly, I have attached a PDF with essential details about the meetup. Make sure you read through that.
       </p>
 
       
