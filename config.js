@@ -21,5 +21,14 @@ module.exports = {
     appId: env.APP_ID,
   },
 
+  prodFirebaseConfig: {
+    apiKey: env.PROD_API_KEY,
+    authDomain: env.PROD_AUTH_DOMAIN,
+    projectId: env.PROD_PROJECT_ID,
+    storageBucket: env.PROD_STORAGE_BUCKET,
+    messagingSenderId: env.PROD_MESSAGING_SENDER_ID,
+    appId: env.PROD_APP_ID,
+  },
+
   baseURL: env.NODE_ENV === 'production' ? env.PROD_BASE_URL : env.DEV_BASE_URL,
 };

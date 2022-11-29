@@ -14,6 +14,12 @@ module.exports = (fullname, email) => {
     to: email,
     subject: 'Welcome to the Jos WebDev Meetup',
     html: getWelcomeEmailBody(fullname),
+    attachments: [
+      {
+        filename: 'Jos-DevCon-Agenda.pdf',
+        path: 'utils/Jos-DevCon-Agenda.pdf',
+      },
+    ],
   };
 
   transporter.sendMail(mailOptions, function (error, info) {
