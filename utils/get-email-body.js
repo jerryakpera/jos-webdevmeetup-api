@@ -6,11 +6,11 @@ module.exports = (name, verificationURL) => {
       <br/>
       
       <p>
-        You are seeing this email because you registered for the upcoming Web Dev meetup in Jos, Plateau.
+        You are seeing this email because you registered for the DevCon in Jos, Plateau.
       </p>
 
       <p>
-        Please enter the following OTP to complete your registration process and verify your email address
+        Please click the link below to complete your registration process and verify your email address
       </p>
 
       <a href="${verificationURL}" target="_blank">
