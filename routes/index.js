@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const sendEmail = require('../utils/send-email');
 const sendWelcomeEmail = require('../utils/send-welcome-email');
+const sendNotificationEmail = require('../utils/send-notification-email');
 
 const { getUser, updateUser } = require('../utils/user-utils');
 const { verifyToken } = require('../utils/get-verification-token');
@@ -28,6 +29,8 @@ router.get('/verify', async (req, res, next) => {
     await updateUser(email, { verified: true });
 
     await sendWelcomeEmail(fullname, email);
+
+    await sendNotificationEmail();
 
     return res.send(
       'Verification successful. Please check your email for details about the event'
