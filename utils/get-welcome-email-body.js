@@ -8,7 +8,7 @@ module.exports = (name) => {
       </p>
       
       <p style="margin-top: 5px">
-        Secondly, I have attached a PDF with essential details about the meetup. Make sure you read through that.
+        Secondly, the<strong> venue for the meetup will be at No 5. Thomas Didel Drive, Off Liberty Boulevard, (Millionaires Quarter) behind Double Dollar. </strong> I have attached a PDF with essential details about the meetup. Make sure you read through that.
       </p>
 
       
