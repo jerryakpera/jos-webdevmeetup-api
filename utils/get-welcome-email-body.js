@@ -4,7 +4,7 @@ module.exports = (name) => {
       <p style="margin-top: 5px"> Hello, ${name} </p>
       
       <p style="margin-top: 5px">
-        Firstly, my name is Jeremiah Akpera and I say thank you for officially becoming a pioneer member of the Jos WebDev Meetup. I hope that many more will follow.
+        Firstly, my name is Jeremiah Akpera and I am a web developer based out of Jos let me start by thanking you for officially becoming a pioneer member of the Jos WebDev Meetup. I hope that many more will follow.
       </p>
       
       <p style="margin-top: 5px">
@@ -14,7 +14,7 @@ module.exports = (name) => {
       
       <h4 style="margin-bottom: 0; padding-bottom: 0"> Why? </h4>
       <p style="margin-top: 5px">
-      There is potential for a strong developer community to exist and thrive in Jos. Knowing ourselves will allow better and easier sharing of ideas, resources, opportunities, and solutions.Whether you're looking to acquire a friend, mentor, partner or new knowledge this is the event to facilitate that union.
+      I believe there is a strong developer community in Jos and us knowing ourselves will allow it to thrive. Whether you're looking to acquire a friend, mentor, partner or new knowledge this is the event to facilitate that union.
       </p>
 
       <h4 style="margin-bottom: 0; padding-bottom: 0"> What? </h4>
